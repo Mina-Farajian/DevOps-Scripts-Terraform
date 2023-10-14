@@ -1,6 +1,10 @@
-# DevOps-Scripts
-Bash script folder:
- contains some codes that is peractical in daily Devops tasks
+Terraform 
+Provider
+  AWS
+version ~ 4.0
+_____________________________________________________
+how to get out put 
 
-Terraform Folder:
-some codes that are modular and seprated according resourse and can be used for creating your infrastructure with terraform 
+terraform plan -no-color > tfplan.txt
+
+each folder is an indipendant module that can be use
