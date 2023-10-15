@@ -3,9 +3,7 @@ Overview
 This Terraform project is designed to provision and manage AWS resources using Infrastructure as Code (IaC) principles. It organizes AWS resources into different modules, making it easy to deploy and maintain complex infrastructure.
 
 ## Project Structure
-The project is structured into the following directories:
-
-* main-module: This is the main module that defines the base AWS resources, such as VPC, subnets, and security groups. It serves as the foundation for other modules.
+The project is structured into the following directories and more so i put some sample explaination here:
 
 * ec2-instances: This module creates EC2 instances within the previously defined VPC and subnets. You can specify the number of instances, instance types, and other instance-specific configurations.
 
