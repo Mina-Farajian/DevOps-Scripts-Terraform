@@ -1,6 +1,7 @@
 ### Terraform AWS Infrastructure as Code (IaC) Project
 Overview
-This Terraform project is designed to provision and manage AWS resources using Infrastructure as Code (IaC) principles. It organizes AWS resources into different modules, making it easy to deploy and maintain complex infrastructure.
+provider AWS
+version ~>4.0
 
 ## Project Structure
 The project is structured into the following directories and more so i put some sample explaination here:
