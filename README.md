@@ -37,8 +37,8 @@ terraform init
 ```
 terraform plan
 ```
-Happy Terraforming! 🚀
 7- Apply the configuration:
 ```
 terraform apply
 ```
+Happy Terraforming! 🚀
