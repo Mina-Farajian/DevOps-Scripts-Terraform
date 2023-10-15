@@ -21,10 +21,25 @@ Before you begin, ensure that you have the following prerequisites installed on 
 Terraform
 AWS CLI
 AWS IAM credentials with appropriate permissions
-Usage
-Clone this repository to your local machine.
-
-Change into the project directory:
+## Usage
+1- Clone this repository to your local machine.
+2- Change into the project directory:
 ```
 cd terraform-aws-iac-project
+```
+3- Create a terraform.tfvars file to set your AWS access and secret keys, or use environment variables.
+
+4- Initialize Terraform and download the required providers:
+```
+terraform init
+```
+5-Review and customize the variables in the module .tf files as needed, such as VPC settings, RDS configurations, and EC2 instance specifications.
+
+6- Plan the changes:
+```
+terraform plan
+```
+7- Apply the configuration:
+```
+terraform apply
 ```
