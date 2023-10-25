@@ -3,7 +3,7 @@ Overview
 provider AWS
 version ~>4.0
 
-##Structure
+## Structure
 The repository is structured as follows:
 
 
