@@ -20,11 +20,11 @@ AWS IAM credentials with appropriate permissions
 1- Clone this repository to your local machine.
 2- Change into the project directory:
 ```
-cd in project main directory
+cd in resource main directory
 ```
 3- Create a terraform.tfvars file to set your AWS access and secret keys, or use environment variables or use locals.
-   you can call modules in main.tf 
-   if you want to use each module independently, you should customize it as a main terraform file
+   - you can call modules in main.tf 
+   - if you want to use each module independently, you should customize it as a main terraform file.
 
 4- Initialize Terraform and download the required providers:
 ```
