@@ -28,16 +28,8 @@ cd in resource main directory
 
 4- Initialize Terraform and download the required providers:
 ```
-terraform init
-```
-5-Review and customize the variables in the module  files as needed, such as VPC settings, RDS configurations, and EC2 instance specifications.
-
-6- Plan the changes:
-```
-terraform plan
-```
-7- Apply the configuration:
-```
-terraform apply
+* terraform init
+* terraform plan
+* terraform apply
 ```
 Happy Terraforming! 🚀
